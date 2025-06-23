@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+--Blue:hsl(223, 87%, 63%);
+--Pale-Blue: hsl(223, 100%, 88%);
+--LightRed:hsl(354, 100%, 66%);
+
+
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+
+
+
+--Font-size: 20px
+
+### Fonts
+
+- Family: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin)
+- Weights: 300, 600, 700
+
+
+}
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
+}
+#logo img {
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 28px;
+
+}
+#container-1 div h3{
+  color:gray;
+  font-size:39px;
+  font-weight: 1;
+  padding-bottom: 5px;
+
+} 
+#container-1 div h3 span{
+  font-weight: 700;
+  color: black;
+}
+#container-1 div p {
+  font-weight: 300;
+  color: gray;
+  /* text-align: center; */
+  
+
+}
+#email{
+  padding: 15px;
+  border-radius: 23px;
+  padding-right: 140px;
+  margin-top: 28px;
+  color:var(--Pale-Blue)
+  
+}
+#notify{
+  padding: 15px;
+  border-radius: 25px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 28px;
+  margin-left: 10px;
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  background-color:hsl(223, 87%, 63%);
+}
+#illustration {
+  width: 95%;
+}
+#body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid hsl(223, 100%, 88%);
+  margin: 50px auto;
+  width: 40%;
+  border-radius: 30px;
+}
