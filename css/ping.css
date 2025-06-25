@@ -90,34 +90,35 @@
 .icon{
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   gap: 10px;
-  /* width: 05%; */
+  
   
 }
 .facebook {
   background-color: var(white);
-  color: var(--Blue);
+  color: var(--Pale-Blue);
   font-size: 30px; 
-   padding: 10px;
-  border-radius: 100%;
-  border: 0.3px solid var(--Blue);
+  padding: 7px;
+  border-radius: 40%;
+  border: 0.3px solid var(--Pale-Blue);
+  font-size: 25px;
 
 }
 .twitter {
-  color: var(--Blue);
-    border: 0.3px solid var(--Blue);
-
+  color: var(--Pale-Blue);
+  border: 0.3px solid var(--Pale-Blue);
   font-size: 30px;
-    padding: 10px;
-  border-radius: 100%;
+  padding: 7px;
+  border-radius: 30%;
+  font-size: 25px;
+
 }
 .insta{
   background-color: white;
-  
-  color: var(--Blue);
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 90%;
-  border: 0.3px solid var(--Blue);
+  font-size: 24px;
+  color: var(--Pale-Blue);
+  /* font-size: 30px; */
+  padding: 7px;
+  border-radius: 40%;
+  border: 0.3px solid var(--Pale-Blue);
 }
