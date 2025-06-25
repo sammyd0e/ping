@@ -87,3 +87,37 @@
   width: 40%;
   border-radius: 30px;
 }
+.icon{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  gap: 10px;
+  /* width: 05%; */
+  
+}
+.facebook {
+  background-color: var(white);
+  color: var(--Blue);
+  font-size: 30px; 
+   padding: 10px;
+  border-radius: 100%;
+  border: 0.3px solid var(--Blue);
+
+}
+.twitter {
+  color: var(--Blue);
+    border: 0.3px solid var(--Blue);
+
+  font-size: 30px;
+    padding: 10px;
+  border-radius: 100%;
+}
+.insta{
+  background-color: white;
+  
+  color: var(--Blue);
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 90%;
+  border: 0.3px solid var(--Blue);
+}
